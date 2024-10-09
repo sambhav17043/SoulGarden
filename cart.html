@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-Compatible" content="IE=edge">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Garden</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="LOGO1.jpg" class="LOGO1" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="REGISTER.html">Register</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="Ig-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+    </section>
+
+    
+    <!--Cart page like a real e-commerce website-->
+    <section class="cart">
+            <div class="cart-title">
+                <h1>Shopping Cart</h1>
+                <p>There are <span id="cart-item"></span> items in your cart</p>
+            </div>
+            <div class="cart-box">
+                <table>
+                    <thead>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </thead>
+                </table>
+            </div>
+    </section>
+    
+    <script src="Script.js"></script>
+</body>
